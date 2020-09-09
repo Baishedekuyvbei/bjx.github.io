@@ -1,17 +1,34 @@
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 白金鑫
+ * @Date: 2020-09-09 09:32:13
+ * @LastEditors: 白金鑫
+ * @LastEditTime: 2020-09-09 09:42:34
+-->
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: 白金鑫
+ * @Date: 2020-09-09 09:32:13
+ * @LastEditors: 白金鑫
+ * @LastEditTime: 2020-09-09 09:41:30
+-->
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    hello world
+    <kkk/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import kkk from './components/kkk'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    kkk
   }
 }
 </script>
